@@ -48,9 +48,9 @@
                 "drawing_id": "dccf1ee1-4c76-47cb-bc08-8a125b7f7035",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"24\" width=\"60\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.4.0.0</text></svg>",
-                "x": 193,
-                "y": 229,
+                "svg": "<svg width=\"60\" height=\"24\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.4.0.0</text></svg>",
+                "x": 179,
+                "y": 198,
                 "z": 2
             },
             {
@@ -67,6 +67,7 @@
             {
                 "filters": {},
                 "link_id": "32339e27-8f4a-4ada-8113-0284157849a3",
+                "link_style": {},
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -98,6 +99,7 @@
             {
                 "filters": {},
                 "link_id": "ef43c309-faa2-40e8-9bdf-b279c5799b28",
+                "link_style": {},
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -129,6 +131,7 @@
             {
                 "filters": {},
                 "link_id": "3f6ae747-ae57-4263-ae58-0ae57f4c17dd",
+                "link_style": {},
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -160,6 +163,7 @@
             {
                 "filters": {},
                 "link_id": "415a3c9d-72bf-47ee-8b8d-34a237046c8c",
+                "link_style": {},
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -191,6 +195,7 @@
             {
                 "filters": {},
                 "link_id": "48ee8683-a35b-40ae-bcc1-d241e53c67df",
+                "link_style": {},
                 "nodes": [
                     {
                         "adapter_number": 0,
@@ -218,12 +223,44 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "cd3ea21a-2037-4ecc-bdc8-a4d5e840e1aa",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #ffffff;fill-opacity: 1.0;",
+                            "text": "e0/0",
+                            "x": 65,
+                            "y": 18
+                        },
+                        "node_id": "6d5331fb-ac00-432b-a523-a75504502f93",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #ffffff;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": -6,
+                            "y": 27
+                        },
+                        "node_id": "c76a807f-1f9a-4330-a1ea-8a8e422bb9f3",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
             {
                 "compute_id": "local",
-                "console": 5000,
+                "console": 5003,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -292,7 +329,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5001,
+                "console": 5004,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -361,7 +398,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5002,
+                "console": 5005,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -430,7 +467,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5003,
+                "console": 5006,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -499,7 +536,7 @@
             },
             {
                 "compute_id": "local",
-                "console": 5004,
+                "console": 5007,
                 "console_auto_start": false,
                 "console_type": "telnet",
                 "custom_adapters": [],
@@ -605,11 +642,51 @@
                 "x": 260,
                 "y": -81,
                 "z": 1
+            },
+            {
+                "compute_id": "vm",
+                "console": 5001,
+                "console_auto_start": false,
+                "console_type": "telnet",
+                "custom_adapters": [],
+                "first_port_name": null,
+                "height": 48,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #ffffff;fill-opacity: 1.0;",
+                    "text": "IOU2",
+                    "x": 6,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "IOU2",
+                "node_id": "6d5331fb-ac00-432b-a523-a75504502f93",
+                "node_type": "iou",
+                "port_name_format": "Ethernet{segment0}/{port0}",
+                "port_segment_size": 4,
+                "properties": {
+                    "application_id": 2,
+                    "ethernet_adapters": 4,
+                    "l1_keepalives": false,
+                    "md5sum": "2eabae17778316c49cbc80e8e81262f9",
+                    "nvram": 64,
+                    "path": "i86bi-linux-l3-adventerprisek9-15.4.1T.bin",
+                    "ram": 256,
+                    "serial_adapters": 0,
+                    "usage": "",
+                    "use_default_iou_values": true
+                },
+                "symbol": ":/symbols/multilayer_switch.svg",
+                "template_id": "d7f2c4ae-3e98-4d80-b777-d7d53e9c2ecc",
+                "width": 51,
+                "x": 241,
+                "y": 365,
+                "z": 1
             }
         ]
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.17",
+    "version": "2.2.56.1",
     "zoom": 100
 }
