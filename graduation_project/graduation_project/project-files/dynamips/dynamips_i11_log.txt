@@ -1,0 +1,31 @@
+Apr 18 16:45:06.182 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 18 16:45:06.183 HYPERVISOR: Started on IP = localhost, TCP port = 4236.
+Apr 18 16:45:06.188 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 16:45:06.188 HYPERVISOR: exec_cmd: hypervisor working_dir D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips 
+Apr 18 16:45:06.188 GENERAL: working_dir=D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips
+Apr 18 16:45:06.188 HYPERVISOR: exec_cmd: hypervisor working_dir D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips\f303567c-22f0-4317-8dda-da85b282d43b 
+Apr 18 16:45:06.188 GENERAL: working_dir=D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips\f303567c-22f0-4317-8dda-da85b282d43b
+Apr 18 16:45:06.189 HYPERVISOR: exec_cmd: vm create low 5 c7200 
+Apr 18 16:45:06.189 VM: VM low created.
+Apr 18 16:45:06.189 HYPERVISOR: exec_cmd: vm set_con_tcp_port low 5009 
+Apr 18 16:45:06.189 HYPERVISOR: exec_cmd: c7200 get_mac_addr low 
+Apr 18 16:45:06.189 HYPERVISOR: exec_cmd: vm get_status low 
+Apr 18 16:45:06.189 HYPERVISOR: exec_cmd: vm slot_add_binding low 0 0 C7200-IO-FE 
+Apr 18 16:45:06.190 HYPERVISOR: exec_cmd: vm set_disk0 low 0 
+Apr 18 16:45:06.190 HYPERVISOR: exec_cmd: vm set_exec_area low 64 
+Apr 18 16:45:06.191 HYPERVISOR: exec_cmd: vm set_ios low C:/Users/Admin/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 18 16:45:06.191 HYPERVISOR: exec_cmd: c7200 set_mac_addr low ca05.48fc.0000 
+Apr 18 16:45:06.191 HYPERVISOR: exec_cmd: vm set_nvram low 512 
+Apr 18 16:45:06.191 HYPERVISOR: exec_cmd: vm set_ram low 512 
+Apr 18 16:45:06.191 HYPERVISOR: exec_cmd: vm get_status low 
+Apr 18 16:45:06.191 HYPERVISOR: exec_cmd: vm slot_add_binding low 1 0 PA-2FE-TX 
+Apr 18 16:45:06.191 HYPERVISOR: exec_cmd: vm get_status low 
+Apr 18 16:45:06.191 HYPERVISOR: exec_cmd: vm slot_add_binding low 2 0 PA-GE 
+Apr 18 16:45:06.192 HYPERVISOR: exec_cmd: vm get_status low 
+Apr 18 16:45:06.192 HYPERVISOR: exec_cmd: vm slot_add_binding low 3 0 PA-4T+ 
+Apr 18 16:45:06.192 HYPERVISOR: exec_cmd: vm get_status low 
+Apr 18 16:45:06.192 HYPERVISOR: exec_cmd: vm slot_add_binding low 4 0 PA-POS-OC3 
+Apr 18 16:45:06.192 HYPERVISOR: exec_cmd: vm set_con_tcp_port low 5009 
+Apr 18 16:45:06.773 HYPERVISOR: exec_cmd: nio create_udp udp-458c4649-893b-459c-88b3-ee0a038637ba 10022 127.0.0.1 10023 
+Apr 18 16:45:07.002 HYPERVISOR: exec_cmd: vm slot_add_nio_binding low 0 0 udp-458c4649-893b-459c-88b3-ee0a038637ba 
+Apr 18 16:45:07.002 HYPERVISOR: exec_cmd: vm get_status low 

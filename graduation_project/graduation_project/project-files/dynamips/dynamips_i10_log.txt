@@ -1,0 +1,31 @@
+Apr 18 16:45:06.151 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 18 16:45:06.151 HYPERVISOR: Started on IP = localhost, TCP port = 4233.
+Apr 18 16:45:06.157 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 16:45:06.157 HYPERVISOR: exec_cmd: hypervisor working_dir D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips 
+Apr 18 16:45:06.157 GENERAL: working_dir=D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips
+Apr 18 16:45:06.157 HYPERVISOR: exec_cmd: hypervisor working_dir D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips\bcbb5022-3d9d-4106-87f6-a92987856f00 
+Apr 18 16:45:06.157 GENERAL: working_dir=D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips\bcbb5022-3d9d-4106-87f6-a92987856f00
+Apr 18 16:45:06.157 HYPERVISOR: exec_cmd: vm create engineering 4 c7200 
+Apr 18 16:45:06.158 VM: VM engineering created.
+Apr 18 16:45:06.158 HYPERVISOR: exec_cmd: vm set_con_tcp_port engineering 5008 
+Apr 18 16:45:06.158 HYPERVISOR: exec_cmd: c7200 get_mac_addr engineering 
+Apr 18 16:45:06.158 HYPERVISOR: exec_cmd: vm get_status engineering 
+Apr 18 16:45:06.158 HYPERVISOR: exec_cmd: vm slot_add_binding engineering 0 0 C7200-IO-FE 
+Apr 18 16:45:06.158 HYPERVISOR: exec_cmd: vm set_disk0 engineering 0 
+Apr 18 16:45:06.158 HYPERVISOR: exec_cmd: vm set_exec_area engineering 64 
+Apr 18 16:45:06.159 HYPERVISOR: exec_cmd: vm set_ios engineering C:/Users/Admin/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 18 16:45:06.159 HYPERVISOR: exec_cmd: c7200 set_mac_addr engineering ca04.39dc.0000 
+Apr 18 16:45:06.159 HYPERVISOR: exec_cmd: vm set_nvram engineering 512 
+Apr 18 16:45:06.159 HYPERVISOR: exec_cmd: vm set_ram engineering 512 
+Apr 18 16:45:06.159 HYPERVISOR: exec_cmd: vm get_status engineering 
+Apr 18 16:45:06.159 HYPERVISOR: exec_cmd: vm slot_add_binding engineering 1 0 PA-2FE-TX 
+Apr 18 16:45:06.159 HYPERVISOR: exec_cmd: vm get_status engineering 
+Apr 18 16:45:06.159 HYPERVISOR: exec_cmd: vm slot_add_binding engineering 2 0 PA-GE 
+Apr 18 16:45:06.160 HYPERVISOR: exec_cmd: vm get_status engineering 
+Apr 18 16:45:06.160 HYPERVISOR: exec_cmd: vm slot_add_binding engineering 3 0 PA-4T+ 
+Apr 18 16:45:06.160 HYPERVISOR: exec_cmd: vm get_status engineering 
+Apr 18 16:45:06.160 HYPERVISOR: exec_cmd: vm slot_add_binding engineering 4 0 PA-POS-OC3 
+Apr 18 16:45:06.160 HYPERVISOR: exec_cmd: vm set_con_tcp_port engineering 5008 
+Apr 18 16:45:07.309 HYPERVISOR: exec_cmd: nio create_udp udp-6ecb7396-d57b-4058-982b-d29624b4b140 10028 127.0.0.1 10029 
+Apr 18 16:45:07.551 HYPERVISOR: exec_cmd: vm slot_add_nio_binding engineering 0 0 udp-6ecb7396-d57b-4058-982b-d29624b4b140 
+Apr 18 16:45:07.552 HYPERVISOR: exec_cmd: vm get_status engineering 

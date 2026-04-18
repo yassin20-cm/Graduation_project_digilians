@@ -1,0 +1,31 @@
+Apr 18 16:45:05.020 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 18 16:45:05.020 HYPERVISOR: Started on IP = localhost, TCP port = 4224.
+Apr 18 16:45:05.533 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 18 16:45:05.534 HYPERVISOR: exec_cmd: hypervisor working_dir D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips 
+Apr 18 16:45:05.534 GENERAL: working_dir=D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips
+Apr 18 16:45:05.534 HYPERVISOR: exec_cmd: hypervisor working_dir D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips\aa614e3e-9502-4319-afab-a2b60d32d550 
+Apr 18 16:45:05.536 GENERAL: working_dir=D:\graduation project\Graduation_project_digilians\graduation_project\graduation_project\project-files\dynamips\aa614e3e-9502-4319-afab-a2b60d32d550
+Apr 18 16:45:05.536 HYPERVISOR: exec_cmd: vm create computer_sience 1 c7200 
+Apr 18 16:45:05.538 VM: VM computer_sience created.
+Apr 18 16:45:05.538 HYPERVISOR: exec_cmd: vm set_con_tcp_port computer_sience 5005 
+Apr 18 16:45:05.538 HYPERVISOR: exec_cmd: c7200 get_mac_addr computer_sience 
+Apr 18 16:45:05.538 HYPERVISOR: exec_cmd: vm get_status computer_sience 
+Apr 18 16:45:05.539 HYPERVISOR: exec_cmd: vm slot_add_binding computer_sience 0 0 C7200-IO-FE 
+Apr 18 16:45:05.539 HYPERVISOR: exec_cmd: vm set_disk0 computer_sience 0 
+Apr 18 16:45:05.539 HYPERVISOR: exec_cmd: vm set_exec_area computer_sience 64 
+Apr 18 16:45:05.540 HYPERVISOR: exec_cmd: vm set_ios computer_sience C:/Users/Admin/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 18 16:45:05.540 HYPERVISOR: exec_cmd: c7200 set_mac_addr computer_sience ca01.2394.0000 
+Apr 18 16:45:05.542 HYPERVISOR: exec_cmd: vm set_nvram computer_sience 512 
+Apr 18 16:45:05.542 HYPERVISOR: exec_cmd: vm set_ram computer_sience 512 
+Apr 18 16:45:05.543 HYPERVISOR: exec_cmd: vm get_status computer_sience 
+Apr 18 16:45:05.543 HYPERVISOR: exec_cmd: vm slot_add_binding computer_sience 1 0 PA-2FE-TX 
+Apr 18 16:45:05.543 HYPERVISOR: exec_cmd: vm get_status computer_sience 
+Apr 18 16:45:05.543 HYPERVISOR: exec_cmd: vm slot_add_binding computer_sience 2 0 PA-GE 
+Apr 18 16:45:05.543 HYPERVISOR: exec_cmd: vm get_status computer_sience 
+Apr 18 16:45:05.543 HYPERVISOR: exec_cmd: vm slot_add_binding computer_sience 3 0 PA-4T+ 
+Apr 18 16:45:05.543 HYPERVISOR: exec_cmd: vm get_status computer_sience 
+Apr 18 16:45:05.543 HYPERVISOR: exec_cmd: vm slot_add_binding computer_sience 4 0 PA-POS-OC3 
+Apr 18 16:45:05.544 HYPERVISOR: exec_cmd: vm set_con_tcp_port computer_sience 5005 
+Apr 18 16:45:07.033 HYPERVISOR: exec_cmd: nio create_udp udp-523c2015-ecf4-49a4-9f96-f9495b4fc683 10025 127.0.0.1 10026 
+Apr 18 16:45:07.269 HYPERVISOR: exec_cmd: vm slot_add_nio_binding computer_sience 0 0 udp-523c2015-ecf4-49a4-9f96-f9495b4fc683 
+Apr 18 16:45:07.271 HYPERVISOR: exec_cmd: vm get_status computer_sience 
