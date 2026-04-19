@@ -1,0 +1,23 @@
+Apr 19 12:15:54.485 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 19 12:15:54.486 HYPERVISOR: Started on IP = localhost, TCP port = 25255.
+Apr 19 12:15:54.489 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 19 12:15:54.489 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Graduation_project_digilians\untitled123\project-files\dynamips 
+Apr 19 12:15:54.489 GENERAL: working_dir=D:\Graduation_project_digilians\untitled123\project-files\dynamips
+Apr 19 12:15:54.489 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Graduation_project_digilians\untitled123\project-files\dynamips\732a3a24-48f1-4a8c-945e-81e5a18fc542 
+Apr 19 12:15:54.490 GENERAL: working_dir=D:\Graduation_project_digilians\untitled123\project-files\dynamips\732a3a24-48f1-4a8c-945e-81e5a18fc542
+Apr 19 12:15:54.492 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Apr 19 12:15:54.492 VM: VM R2 created.
+Apr 19 12:15:54.492 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Apr 19 12:15:54.492 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Apr 19 12:15:54.492 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 19 12:15:54.492 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Apr 19 12:15:54.493 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Admin/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Apr 19 12:15:54.493 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Apr 19 12:15:54.493 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Apr 19 12:15:54.493 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Apr 19 12:15:54.493 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Apr 19 12:15:54.494 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 19 12:15:54.494 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Apr 19 12:15:54.494 HYPERVISOR: exec_cmd: vm get_status R2 
+Apr 19 12:15:54.494 HYPERVISOR: exec_cmd: vm slot_add_binding R2 2 0 PA-8E 
+Apr 19 12:15:54.541 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/Admin/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
